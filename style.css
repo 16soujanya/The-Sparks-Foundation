@@ -1,0 +1,139 @@
+html{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Dancing-script' , cursive;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: rgb(106, 210, 241)!important ;
+    padding-bottom: 10px;
+}
+.nav-link{
+    color: rgb(10, 10, 10) !important;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: medium !important;
+}
+navbar css ends here 
+
+/* here content css starts here  */
+.hero-content{
+    height: 74vh;
+    margin-left: -40px;
+    background-color: #a9abb3;
+    color: #ffffff;
+    padding: 2rem;
+    margin-top: 25px;
+    border-bottom-right-radius: 200rem;
+    border-top-right-radius: 200rem;
+    
+}
+.hero-content h1{
+    color: rgb(106, 210, 241);
+    font-size: 321.5%;
+    font-weight: bold;
+}
+.hero-content h5, p{
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+}
+.hero-img{
+    height: 78vh;
+    width: 100vh;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+/*scrollbar starts here*/
+
+  
+::-webkit-scrollbar-thumb
+  {
+      border-radius: 800px;
+      background-color: #faf9f9;
+  }
+/*scrollbar ends here*/
+
+.get-started{
+    padding: 1rem 2rem;
+    font-size: 160%;
+    background: rgb(106, 210, 241);
+    color: black;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    color: black;
+}
+/* here content css starts here  */
+
+/* footer css starts here */
+.foot{
+    margin-top: 20px;
+    padding: 20px 0;
+    padding-bottom: 60px;
+    background-color: rgb(106, 210, 241);
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.bottom{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    text-align: right;
+    color: #fff;
+}
+
+.title{
+    font-size: 100%;
+    color: #FFFFFF;
+    text-align: left;
+    float: left;
+}
+
+.donate-btn {
+    margin-top: -5px;
+    width: 90px;
+    height: 35px;
+    margin-left: 10px;
+    padding: 7px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    background: #141616;
+    color:  rgb(255, 253, 253) ;
+    text-decoration: none !important;
+}
